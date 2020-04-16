@@ -3,7 +3,7 @@
 IMDB, the world's most famous internet movie database, has _crashed!_ The Powers That Be have phoned CodeClan and specifically tasked YOU with rebuilding it from scratch! So soon into the course? We tried to tell them, but they wouldn't listen!
 
 But help is at hand, because they've given you a spec to work to:
-
+<!-- 
 ## the new IMDB should have:
   - Movies
     - title
@@ -21,7 +21,7 @@ But help is at hand, because they've given you a spec to work to:
 The app should be able to
   - handle CRUD actions for all three models
   - display all the stars for a particular movie
-  - and display all the movies a particular star is cast in.
+  - and display all the movies a particular star is cast in. -->
 
 ## Extension
 

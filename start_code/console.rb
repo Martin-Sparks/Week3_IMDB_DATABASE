@@ -8,9 +8,9 @@ Movie.delete_all()
 Star.delete_all()
 Casting.delete_all()
 
-movie1 = Movie.new({"title" => "Forrest Gump", "genre" => "drama"})
+movie1 = Movie.new({"title" => "Forrest Gump", "genre" => "drama", "budget" => "15000000"})
 movie1.save()
-movie2 = Movie.new({"title" => "Star Wars", "genre" => "Sci-fi"})
+movie2 = Movie.new({"title" => "Star Wars", "genre" => "Sci-fi", "budget" => 2500000})
 movie2.save()
 
 star1 = Star.new( {"first_name" => "Tom", "last_name" => "Hanks"} )
