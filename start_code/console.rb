@@ -5,13 +5,14 @@ require_relative("models/star")
 require('pry')
 
 movie1 = Movie.new({"title" => "Forrest Gump", "genre" => "drama"})
+movie1.save()
 movie2 = Movie.new({"title" => "Star Wars", "genre" => "Sci-fi"})
-
+movie2.save()
 
 star1 = Star.new( {"first_name" => "Tom", "last_name" => "Hanks"} )
-
-
-
+star1.save()
+star2 = Star.new( {"first_name" => "Mark", "last_name" => "Hamill"} )
+star2.save()
 
 
 

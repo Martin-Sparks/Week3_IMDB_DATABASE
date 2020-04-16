@@ -1,3 +1,5 @@
+require_relative('../db/sql_runner')
+
 class Casting
     attr_reader :id
     attr_accessor :movie_id, :fee, :star_id
